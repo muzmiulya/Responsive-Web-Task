@@ -170,15 +170,8 @@ html {
   border: 2px solid lightgreen;
   background-color: rgba(130, 222, 58, 0.2);
 }
-.adder img {
-  object-fit: scale-down;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  margin-top: 0;
-}
 
-/* .adder img {
+.adder img {
   object-fit: scale-down;
   width: 100%;
   height: auto;
@@ -186,7 +179,7 @@ html {
   margin-top: 0;
   padding: 5px;
   padding-top: 8px;
-} */
+}
 .addernumber {
   border: 2px solid lightgreen;
   text-align: center;
@@ -555,346 +548,7 @@ html {
 }
 
 /*==============================================*/
-/* Media Queries: Tablet Landscape */
-/* @media screen and (max-width: 1024px) {
-  .cart-col {
-    font-size: 20px;
-    padding: 13px;
-  }
-  .fooditem p {
-    font-size: 20px;
-  }
-  .grid-container div h1 {
-    font-size: 17px;
-  }
-  .grid-container div p {
-    font-size: 17px;
-  }
 
-  .grid-container {
-    float: none;
-    grid-template-columns: auto auto auto;
-  }
-  .grid-container div {
-    width: 150px;
-  }
-  .grid-container div img {
-    object-fit: cover;
-    width: 220px;
-    max-width: 100%;
-    height: 100px;
-    max-height: auto;
-  }
-
-  .home-col img {
-    padding: 12px;
-  }
-
-  .rom {
-    padding: 20px;
-  }
-
-  .search img {
-    padding: 12px;
-  }
-  .yourcart-col h1 {
-    font-size: 20px;
-  }
-  .yourcart-col p {
-    font-size: 15px;
-  } */
-
-/* ============================ */
-/* .adder {
-    border: 2px solid lightgreen;
-  }
-  .adder img {
-    width: 100%;
-    height: auto;
-
-    margin-top: 0;
-    padding: 2px;
-   
-  }
-  .addernumber {
-    border: 2px solid lightgreen;
-
-    font-size: 18px;
-
-    height: auto;
-  }
-  .btn-primary {
-    width: 100%;
-
-    font-size: 15px;
-  }
-
-  .btn-secondary {
-    width: 100%;
-    font-size: 15px;
-  }
-  .emptybox {
-    height: 50px;
-  }
-  .filledbox {
-    display: grid;
-    align-content: space-between;
-    height: 150px;
-  }
-  .gridbox1 {
-    display: grid;
-    height: 300px;
-  }
-  .gridbox2 {
-    display: grid;
-    height: 200px;
-    grid-auto-rows: minmax(15px, auto);
-    align-content: end;
-  }
-
-  .orderbox {
-    display: grid;
-    height: 20px;
-    width: auto;
-  }
-  .orderboxesamount1 {
-    font-size: 12px;
-  }
-  .orderboxes1 {
-    width: 100%;
-  }
-
-  .orderboxes1 img {
-    object-fit: cover;
-    width: 100%;
-    max-width: 100%;
-    height: 75px;
-    overflow: hidden;
-  }
-
-  .orderboxes2 {
-    display: grid;
-    grid-template-rows: 60% auto;
-    grid-auto-rows: minmax(10px, auto);
-    width: auto;
-    padding-left: 5px;
-  }
-  .orderboxes3 {
-    font-size: 15px;
-  }
-  .ppn {
-    height: 15px;
-    font-size: 15px;
-  }
-  .thegrid {
-    display: grid;
-    height: 500px;
-  }
-  .total {
-    font-size: 15px;
-  }
-  .totalnumber {
-    font-size: 15px;
-  }
-
-  .totalprice {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: auto;
-  }
-
-  .yourcart-col {
-    height: auto;
-
-    padding: 20px;
-  }
-  .modal-content {
-    position: absolute;
-    top: 0;
-    right: auto;
-    left: auto;
-    bottom: auto;
-  }
-} */
-
-/* ================================================================================ */
-
-/* @media screen and (max-width: 768px) {
-  .adder img {
-    width: 100%;
-    height: auto;
-
-    margin-top: 0;
-    padding: 2px;
-   
-  }
-  .fooditem p {
-    font-size: 18px;
-  }
-  .cart-col {
-    font-size: 17px;
-    padding: 10px;
-  }
-  .grid-container div h1 {
-    font-size: 17px;
-  }
-  .grid-container div p {
-    font-size: 17px;
-  }
-  .yourcart-col h1 {
-    font-size: 15px;
-  }
-  .yourcart-col p {
-    font-size: 10px;
-  }
-
-  .grid-container {
-    float: none;
-    grid-template-columns: auto auto;
-  }
-  .grid-container div {
-    width: 170px;
-  }
-  .grid-container div img {
-    object-fit: cover;
-    width: 220px;
-    max-width: 100%;
-    height: 100px;
-    max-height: auto;
-  }
-
-  .rom {
-    padding: 15px;
-  }
-
-  .rom img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-  }
-  .home-col img {
-    padding: 3px;
-  }
-  .search img {
-    padding: 3px;
-  } */
-
-/* ============================ */
-/* .adder {
-    border: 2px solid lightgreen;
-  }
-  .adder img {
-    width: 100%;
-    height: auto;
-
-    margin-top: 0;
-    padding: 2px;
-  
-  }
-  .addernumber {
-    border: 2px solid lightgreen;
-
-    font-size: 16px;
-
-    height: auto;
-  }
-  .btn-primary {
-    width: 100%;
-
-    font-size: 15px;
-  }
-
-  .btn-secondary {
-    width: 100%;
-    font-size: 15px;
-  }
-  .emptybox {
-    height: 125px;
-  }
-  .filledbox {
-    display: grid;
-    align-content: space-between;
-    height: 125px;
-  }
-  .gridbox1 {
-    display: grid;
-    height: 250px;
-  }
-  .gridbox2 {
-    display: grid;
-    height: 250px;
-    grid-auto-rows: minmax(15px, auto);
-    align-content: end;
-  }
-
-  .orderbox {
-    display: grid;
-    height: 18px;
-    width: auto;
-  }
-  .orderboxesamount1 {
-    font-size: 12px;
-  }
-  .orderboxes1 {
-    width: 100%;
-  }
-
-  .orderboxes1 img {
-    object-fit: cover;
-    width: 100%;
-    max-width: 100%;
-    height: 70px;
-    overflow: hidden;
-  }
-
-  .orderboxes2 {
-    display: grid;
-    grid-template-rows: 60% auto;
-    grid-auto-rows: minmax(10px, auto);
-    width: 80px;
-    padding-left: 5px;
-  }
-  .orderboxes3 {
-    font-size: 12px;
-    width: 70px;
-  }
-  .ppn {
-    height: 15px;
-    font-size: 12px;
-  }
-  .thegrid {
-    display: grid;
-    height: 500px;
-  }
-  .total {
-    font-size: 12px;
-  }
-  .totalnumber {
-    font-size: 12px;
-  }
-
-  .totalprice {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: auto;
-  }
-
-  .yourcart-col {
-    height: auto;
-
-    padding: 15px;
-  }
-  .modal-content {
-    position: absolute;
-    top: 0;
-    right: auto;
-    left: auto;
-    bottom: auto;
-  }
-} */
-
-/*==============================================*/
-/* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1300px) {
   .cart-col {
     font-size: 20px;
@@ -962,7 +616,7 @@ html {
     right: 60%;
   }
   .addernumber {
-    font-size: 15px;
+    font-size: 20px;
   }
   .orderboxesamount1 {
     font-size: 15px;
@@ -970,6 +624,7 @@ html {
 
   .orderboxes3 .orderprice {
     font-size: 15px;
+    width: 80px;
   }
   .orderboxes1 img {
     object-fit: cover;
@@ -981,15 +636,41 @@ html {
 
   .orderboxes2 {
     display: grid;
-    grid-template-rows: 30% 40%;
+    grid-template-rows: 50% 40%;
     grid-auto-rows: minmax(10px, auto);
     width: auto;
     padding-left: 5px;
   }
+  .orderboxesamount2 {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+  }
 }
 
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
+  .orderbox1 {
+    width: 70px;
+  }
+  .orderboxes1 img {
+    width: 60px;
+  }
+  .orderboxes2 {
+    grid-template-rows: 45% 40%;
+  }
+  .orderboxes3 .orderprice {
+    font-size: 15px;
+    width: 80px;
+  }
+  .orderboxesamount2 {
+    grid-template-columns: 20% 20% 20%;
+  }
+  .orderbox {
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
   .fooditem p {
     font-size: 18px;
     margin: auto;
@@ -1087,14 +768,19 @@ html {
     grid-auto-rows: minmax(15px, auto);
     align-content: end;
   }
-
   .orderbox {
     display: grid;
-    height: 20px;
-    width: auto;
+    grid-template-columns: 2fr 2fr 1fr;
+    height: 80px;
+    max-width: 100%;
   }
+
   .orderboxesamount1 {
-    font-size: 12px;
+    font-size: 15px;
+  }
+  .orderboxesamount2 {
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
   }
   .orderboxes1 {
     width: 100%;
@@ -1110,13 +796,15 @@ html {
 
   .orderboxes2 {
     display: grid;
-    grid-template-rows: 60% auto;
+    grid-template-rows: 55% 40%;
     grid-auto-rows: minmax(10px, auto);
     width: auto;
     padding-left: 5px;
   }
-  .orderboxes3 {
+
+  .orderboxes3 .orderprice {
     font-size: 15px;
+    width: 110px;
   }
   .ppn {
     height: 15px;
@@ -1142,7 +830,7 @@ html {
   .yourcart-col {
     height: auto;
 
-    padding: 20px;
+    padding: 35px;
   }
   .modal-content {
     position: absolute;
@@ -1152,7 +840,31 @@ html {
     bottom: auto;
   }
 }
-
+@media screen and (max-width: 900px) {
+  .orderbox1 {
+    width: 70px;
+  }
+  .orderboxes1 img {
+    width: 60px;
+  }
+  .orderboxes2 {
+    grid-template-rows: 60% 40%;
+  }
+  .orderboxesamount1 {
+    font-size: 13px;
+  }
+  .orderboxesamount2 {
+    grid-template-columns: 30% 30% 30%;
+  }
+  .orderbox {
+    grid-template-columns: 35% 35% 30%;
+    height: 80px;
+  }
+  .orderboxes3 .orderprice {
+    font-size: 13px;
+    width: 80px;
+  }
+}
 @media screen and (max-width: 768px) {
   .cart-col {
     position: sticky;
@@ -1259,6 +971,7 @@ html {
 
     margin-top: 0;
     padding: 2px;
+    padding-top: 7px;
   }
   .addernumber {
     border: 2px solid lightgreen;
@@ -1308,7 +1021,7 @@ html {
   }
   .orderboxesamount2 {
     display: grid;
-    grid-template-columns: 15% 15% 15%;
+    grid-template-columns: 20% 20% 20%;
   }
 
   .orderboxes1 {
@@ -1316,24 +1029,21 @@ html {
   }
 
   .orderboxes1 img {
-    object-fit: cover;
     width: 100%;
     max-width: 100%;
-    height: 100px;
-    overflow: hidden;
+    height: 110px;
+
     padding: 0;
   }
 
   .orderboxes2 {
-    display: grid;
-    grid-template-rows: 30% 50%;
-    /* grid-auto-rows: minmax(10px, auto); */
-    align-content: space-between;
-    width: auto;
+    grid-template-rows: 55% 30%;
+
     padding-left: 10px;
   }
   .orderboxes3 .orderprice {
     font-size: 25px;
+    width: 100%;
   }
   .ppn {
     height: 25px;
@@ -1351,45 +1061,112 @@ html {
   }
 
   .totalprice {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     height: auto;
-  }
-
-  .yourcart-col {
-    height: auto;
-
-    padding: 70px;
-  }
-  .modal-content {
-    position: absolute;
-    top: 0;
-    right: auto;
-    left: auto;
-    bottom: auto;
   }
 }
 @media screen and (max-width: 650px) {
   .fooditem {
     width: 70%;
   }
+
+  /* ============================================ */
+  .adder img {
+    width: 100%;
+    height: auto;
+
+    margin-top: 0;
+    padding: 2px;
+    padding-top: 7px;
+  }
+  .addernumber {
+    border: 2px solid lightgreen;
+
+    font-size: 30px;
+
+    height: auto;
+  }
+  .btn-primary {
+    width: 100%;
+
+    font-size: 25px;
+  }
+
+  .btn-secondary {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .filledbox {
+    align-content: space-between;
+    height: 200px;
+  }
+  .gridbox1 {
+    align-content: space-between;
+    height: 400px;
+  }
+  .gridbox2 {
+    height: 400px;
+    /* grid-auto-rows: minmax(15px, auto); */
+    align-content: space-between;
+  }
+
+  .orderbox {
+    display: grid;
+    height: 80px;
+    width: auto;
+  }
+  .orderboxesamount1 {
+    font-size: 20px;
+  }
+  .orderboxesamount2 {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+  }
+
+  .orderboxes1 {
+    width: 100%;
+  }
+
+  .orderboxes1 img {
+    width: 100%;
+    max-width: 100%;
+    height: 110px;
+
+    padding: 0;
+  }
+
+  .orderboxes2 {
+    grid-template-rows: 55% 40%;
+
+    padding-left: 10px;
+  }
+  .orderboxes3 .orderprice {
+    font-size: 20px;
+    width: 100%;
+  }
+  .ppn {
+    height: 20px;
+    font-size: 20px;
+  }
+  .thegrid {
+    display: grid;
+    height: 1000px;
+  }
+  .total {
+    font-size: 20px;
+  }
+  .totalnumber {
+    font-size: 20px;
+  }
+
+  .totalprice {
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 500px) {
-  .cart-col {
-    width: 30%;
-  }
-
-  .firstColumn {
-    width: 70%;
-  }
-
-  .fooditem {
-    width: 58%;
-  }
-}
-
-@media screen and (max-width: 414px) {
   .cart-col {
     font-size: 20px;
 
@@ -1474,9 +1251,120 @@ html {
   .yourcart-col p {
     font-size: 20px;
   }
-  @media screen and (max-width: 350px) {
-    .fooditem {
-      width: 64%;
-    }
+
+  /* ===================================== */
+  .adder img {
+    width: 100%;
+    height: auto;
+
+    margin-top: 0;
+    padding: 2px;
+    padding-top: 7px;
+  }
+  .addernumber {
+    border: 2px solid lightgreen;
+
+    font-size: 30px;
+
+    height: auto;
+  }
+  .btn-primary {
+    width: 100%;
+
+    font-size: 25px;
+  }
+
+  .btn-secondary {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .filledbox {
+    align-content: space-between;
+    height: 200px;
+  }
+  .gridbox1 {
+    align-content: space-between;
+    height: 400px;
+  }
+  .gridbox2 {
+    height: 400px;
+    /* grid-auto-rows: minmax(15px, auto); */
+    align-content: space-between;
+  }
+
+  .orderbox {
+    display: grid;
+    height: 80px;
+    width: auto;
+  }
+  .orderboxesamount1 {
+    font-size: 20px;
+  }
+  .orderboxesamount2 {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+  }
+
+  .orderboxes1 {
+    width: 100%;
+  }
+
+  .orderboxes1 img {
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+
+    padding: 0;
+  }
+
+  .orderboxes2 {
+    grid-template-rows: 50% 50%;
+
+    padding-left: 10px;
+  }
+  .orderboxes3 .orderprice {
+    font-size: 20px;
+    width: 100%;
+  }
+  .ppn {
+    height: 20px;
+    font-size: 20px;
+  }
+  .thegrid {
+    display: grid;
+    height: 1000px;
+  }
+  .total {
+    font-size: 20px;
+  }
+  .totalnumber {
+    font-size: 20px;
+  }
+
+  .totalprice {
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .orderboxes1 img {
+    width: 100%;
+    max-width: 100%;
+    height: 80px;
+
+    padding: 0;
+  }
+  .orderboxes3 .orderprice {
+    font-size: 15px;
+    width: 80px;
+  }
+  .orderboxesamount1 {
+    font-size: 15px;
+  }
+  .addernumber {
+    font-size: 25px;
+
+    height: auto;
   }
 }

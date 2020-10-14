@@ -156,7 +156,7 @@ html {
 }
 
 /*==============================================*/
-/* Media Queries: Tablet Landscape */
+
 @media screen and (max-width: 1300px) {
   .cart-col {
     font-size: 20px;
@@ -210,7 +210,6 @@ html {
   }
 }
 
-/* Media Queries: Tabled Portrait */
 @media screen and (max-width: 1000px) {
   .fooditem p {
     font-size: 18px;
